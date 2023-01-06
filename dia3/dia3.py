@@ -74,6 +74,7 @@ print('Mod es:',modulo)
 
 '''
 
+'''
 #calculando el area de un circulo
 
 radio = input('Ingrese el valor de Radio: ')
@@ -92,5 +93,36 @@ print('Usted ingreso el valor de ALTO',alto)
 area_rectangulo = float(ancho)*float(alto)
 print('El area del triangulo es: ',area_rectangulo)
 
+#calculando el peso de un objeto
+
+masa = float(input('Cual es la masa del objeto: ')) 
+gravedad = 9.81
+peso = masa*gravedad
+print('El peso del objeto es: ',peso)
+
+#calulando la densidad de un liquido
+masal = float(input('Cual es la masa del objeto kg: '))
+volumen = float(input('Cual es volumen m^3 del objeto: ')) 
+densidad = masal / volumen
+print('la densidad del liguido es : ', densidad , ' Kg/m^3')
+
+
+'''
+#operadores de comparacion
+
+print(3>2)
+print(3>=2)
+print(3<2)
+print(2<3)
+print(2<=3)
+print(3 == 2)
+print(3!=2)
+print(len('mango') == len('aguacate'))
+print(len('mango') != len('aguacate'))
+print(len('mango') < len('aguacate'))
+print(len('leche') != len('carne'))
+print(len('leche') == len('carne'))
+print(len('tomate') == len('papa'))
+print(len('python') > len('dragon'))
 
 
