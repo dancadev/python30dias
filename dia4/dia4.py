@@ -102,6 +102,58 @@ print(cadena_formato2)
 a = 4
 b = 3
 print(f'{a} + {b} = {a+b}')
+print(f'{a} - {b} = {a-b}')
+print(f'{a} * {b} = {a*b}')
+print(f'{a} / {b} = {a/b:.2f}')
+print(f'{a} % {b} = {a%b}')
+print(f'{a} // {b} = {a//b}')
+print(f'{a} ** {b} = {a**b}')
+
+#cadenas de python como secuencias de caracteres
+
+lenguaje = 'python'
+a,b,c,d,e,f = lenguaje #edsempaquetando secuencia de caracteres dentro de variables
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+#acediendo a caracteres de cadenas por indices
+
+lenguaje = 'python'
+primera_letra = lenguaje[0]
+segunda_letra = lenguaje[1]
+tercera_letra = lenguaje[2]
+cuarta_letra = lenguaje[3]
+quinta_letra = lenguaje[4]
+sexta_letra = lenguaje[5]
+print(primera_letra)
+print(segunda_letra)
+print(tercera_letra)
+print(cuarta_letra)
+print(quinta_letra)
+print(sexta_letra)
+
+#cortar cadenas en python: se pueden dividir cadenas en subcadenas
+
+primeras_tres = lenguaje[0:3]
+print(primeras_tres)
+ultimas_tres = lenguaje[3:6]
+print(ultimas_tres)
+# de otra manera:
+primeras_tresB = lenguaje[-3:]
+print('ultimas tres de otra manera: ',primeras_tresB)
+primeras_tresC = lenguaje[3:]
+print('Ultimas tres de otra manera más: ',primeras_tresC)
+
+#invertir una cadena
+
+cadena = 'Hola David Continua asi.'
+print(cadena[::-1])
+
+
 
 
 
