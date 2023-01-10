@@ -93,3 +93,9 @@ print(es)
 
 #cortar elementos de una lista: Indexación positiva: podemos especificar un rango de índices positivos especificando el inicio, el final y el paso, el valor de retorno será una nueva lista. (valores predeterminados para inicio = 0, final = len (lst) - 1 (último elemento), paso = 1)
 
+todas_frutas = frutas[0:4]
+print(todas_frutas)
+todas_frutas = frutas[0:]
+print(todas_frutas)
+pera_manzana = frutas[0:2]
+print(pera_manzana)
