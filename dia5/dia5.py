@@ -91,5 +91,5 @@ print(sw)
 print(scandic)
 print(es)
 
-#cortar elementos de una lista
+#cortar elementos de una lista: Indexación positiva: podemos especificar un rango de índices positivos especificando el inicio, el final y el paso, el valor de retorno será una nueva lista. (valores predeterminados para inicio = 0, final = len (lst) - 1 (último elemento), paso = 1)
 
