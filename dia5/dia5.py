@@ -9,7 +9,7 @@ Conjunto: es una colección desordenada, no indexada y no modificable, pero pode
 Diccionario: es una colección desordenada, cambiable (modificable) e indexada. No hay miembros duplicados.
 Una lista es una colección de diferentes tipos de datos ordenados y modificables (mutables). Una lista puede estar vacía o puede tener diferentes elementos de tipo de datos.
 '''
-
+'''
 #como crear una lista
 
 #forma1: uso de la funcion incorporada de lista:
@@ -90,8 +90,14 @@ print(bg)
 print(sw)
 print(scandic)
 print(es)
-
+'''
 #cortar elementos de una lista: Indexación positiva: podemos especificar un rango de índices positivos especificando el inicio, el final y el paso, el valor de retorno será una nueva lista. (valores predeterminados para inicio = 0, final = len (lst) - 1 (último elemento), paso = 1)
+#listas con valores iniciales
+frutas = ['pera','manzana','tomate','mango','limon']
+vegetales = ['choclo','repollo','tomate','zapallo']
+productos_animales= ['leche','carne','mantequilla','yogurth']
+tecnologias_web = ['HTML','CSS','JS','MONGODB']
+ciudades = ['Pasto','Cali','Medellin','Bogota']
 
 todas_frutas = frutas[0:4]
 print(todas_frutas)
@@ -99,3 +105,18 @@ todas_frutas = frutas[0:]
 print(todas_frutas)
 pera_manzana = frutas[0:2]
 print(pera_manzana)
+tomate_mango_limon = frutas[2:]
+print(tomate_mango_limon)
+menos_limon = frutas[:4]
+print(menos_limon)
+limon = frutas[4:5]
+print(limon)
+saltando_una=frutas[::2]
+print(saltando_una)
+
+#Indexación negativa: podemos especificar un rango de índices negativos especificando el inicio, el final y el paso, el valor devuelto será una nueva lista.
+
+manzana= frutas[-4]
+print(manzana)
+tomate_mango = frutas[-2:-3]
+print(tomate_mango)
