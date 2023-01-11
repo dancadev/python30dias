@@ -120,3 +120,55 @@ manzana= frutas[-4]
 print(manzana)
 tomate_mango = frutas[-2:-3]
 print(tomate_mango)
+
+#modificacion de las listas
+
+frutas[0] = 'aguacate'
+print(frutas)
+ultimo_index = len(frutas) -1
+frutas[ultimo_index] = 'uva'
+print(frutas)
+
+#comprobacion de un elemnto de la lista: Comprobación de un elemento si es miembro de una lista mediante el operador in . Vea el ejemplo a continuación.
+
+no_existe = 'curuba' in frutas
+print(no_existe)
+existe = 'manzana' in frutas
+print(existe)
+
+#adicion de elemntos a una lista: Para agregar un elemento al final de una lista existente, usamos el método append() .
+
+frutas.append('curuba')
+print(frutas)
+frutas.append('lima')
+print(frutas)
+
+#insertar elementos en una lista: Podemos usar el método insert() para insertar un solo elemento en un índice específico en una lista. Tenga en cuenta que otros elementos se desplazan a la derecha. Los métodos insert() toman dos argumentos: índice y un elemento para insertar.
+
+frutas.insert(2,'pera')
+print(frutas)
+frutas.insert(4,'uvilla')
+print(frutas)
+print(len(frutas))
+
+#eliminacion de elemntos de una lista: el metodo remove() elimina un elemnto especifico de una lista
+
+frutas.remove('uvilla')
+print(frutas)
+
+#eliminacion de elementos mediante pop: El método pop() elimina el índice especificado (o el último elemento si no se especifica el índice):
+
+frutas.pop()
+print(frutas)
+frutas.pop(3)
+print(frutas)
+
+#eliminacion de elementos mediaten del: La palabra clave del elimina el índice especificado y también se puede usar para eliminar elementos dentro del rango del índice. También puede eliminar la lista por completo.
+
+del frutas[0]
+print(frutas)
+del frutas[2]
+print(frutas)
+#frutas = ['pera','manzana','tomate','mango','limon']
+del frutas
+print(frutas)
