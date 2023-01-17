@@ -172,3 +172,5 @@ print(frutas)
 #frutas = ['pera','manzana','tomate','mango','limon']
 del frutas
 print(frutas)
+
+#prueba de que se esta haciendo commit en la rama mijitayo
